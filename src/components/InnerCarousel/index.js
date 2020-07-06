@@ -7,9 +7,9 @@ class InnerCarousel extends React.Component {
         return(
             
             <div>
-                {items.map ((value) => {
+                {items.map ((value, key) => {
                     return (
-                        <Card item={value} />
+                        <Card key={key} item={value} />
                     )
                 }) }
  

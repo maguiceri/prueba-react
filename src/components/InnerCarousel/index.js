@@ -3,14 +3,16 @@ import Card from '../Card';
 
 class InnerCarousel extends React.Component {
     render() {
-
+        const { items } = this.props
         return(
-
+            
             <div>
-                <Card item={this.props.items[0]} />
-                <Card item={this.props.items[1]} />
-                <Card item={this.props.items[2]} />
-                <Card item={this.props.items[3]} />
+                {items.map ((value) => {
+                    return (
+                        <Card item={value} />
+                    )
+                }) }
+ 
             </div>
         )
     }

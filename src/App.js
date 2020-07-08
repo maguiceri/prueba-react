@@ -8,8 +8,8 @@ class App extends React.Component{
 
         const items = [
             {
-                img:"https://courseit.com.ar/cursos/logo.png",
-                title:"primer producto",
+                img: "https://courseit.com.ar/cursos",
+                title: "primer producto",
                 price: 100
             },
             {

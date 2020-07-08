@@ -10,7 +10,7 @@ class App extends React.Component{
             {
                 img:"https://courseit.com.ar/cursos/logo.png",
                 title:"primer producto",
-                price: 1000
+                price: 100
             },
             {
                 img:"https://courseit.com.ar/cursos/logo.png",

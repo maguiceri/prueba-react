@@ -6,6 +6,29 @@ class App extends React.Component{
 
     render(){
 
+        const items = [
+            {
+                img: "https://courseit.com.ar/cursos",
+                title: "primer producto",
+                price: 3
+            },
+            {
+                img:"https://courseit.com.ar/cursos",
+                title: "segundo producto",
+                price:65
+            },
+            {
+                img:"https://courseit.com.ar/cursos",
+                title:"tercer producto",
+                price:30
+            },
+            {
+                img:"https://courseit.com.ar/cursos",
+                title:"cuarto producto",
+                price:23
+            }
+        ]
+
  
         return(
             <div>

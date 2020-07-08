@@ -13,22 +13,23 @@ class App extends React.Component{
                 price: 100
             },
             {
-                img:"https://courseit.com.ar/cursos/logo.png",
-                title:"segundo producto",
-                price:8
+                img:"https://courseit.com.ar/cursos",
+                title: "segundo producto",
+                price:65
             },
             {
-                img:"https://courseit.com.ar/cursos/logo.png",
+                img:"https://courseit.com.ar/cursos",
                 title:"tercer producto",
-                price:30 
+                price:30
             },
-        
             {
-                img:"https://courseit.com.ar/cursos/logo.png",
+                img:"https://courseit.com.ar/cursos",
                 title:"cuarto producto",
-                price:9
+                price:23
             }
         ]
+
+ 
         return(
             <div>
             <Carousel title="carusel 1" items={items} />
